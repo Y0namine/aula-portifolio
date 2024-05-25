@@ -1,15 +1,15 @@
 :root {
     --cor-primaria: #43bd8e;
     --cor-secundaria: #FD6C22;
-    --cor-branca: #fff;
+    --cor-branco: #fff;
     --cor-fundo-escuro: #040203;
     --cor-fundo-cinza-escuro: #282828;
     --cor-fundo-cinza-claro: #353535;
 }
 
 :root {
-    --font-primaria: 'Telex', san serif;
-    --font-secundaria: 'Raleway' san serif;
+    --font-primaria: 'Telex', sans-serif;
+    --font-secundaria: 'Raleway', sans-serif;
     --font-gigante: 4.5rem;
     --font-extra-grande: 3rem;
     --font-grande: 2.4rem;

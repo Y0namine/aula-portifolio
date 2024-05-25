@@ -10,5 +10,9 @@ html {
 body {
     background-color: var(--cor-fundo-cinza-escuro);
     font-family: var(--font-primaria);
-    font-size: var(font-normal);
+    font-size: var(--font-normal);
+}
+
+.row {
+    display: flex;
 }
