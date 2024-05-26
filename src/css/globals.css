@@ -5,6 +5,7 @@ html {
     color: var(--cor-branco);
     font-size: 62.5%;
     font-weight: 300;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,8 +14,14 @@ body {
     font-size: var(--font-normal);
 }
 
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justify-content-between {
@@ -23,4 +30,31 @@ body {
 
 .alinhar-itens-no-centro {
     align-items: center;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease; 
+}
+
+.redes-sociais a:hover {
+    color: var(--cor-primaria);
+}
+
+.redes-sociais a i {
+    line-height: 40px;
+}
+
+.outer-shadow {
+    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+}
+
+.inner-shadow {
+    box-shadow:  inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
 }
