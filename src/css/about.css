@@ -14,3 +14,39 @@
     border: 10px solid transparent;
     border-radius: 5px;
 }
+
+.about-me .informacoes-sobre-mim {
+    max-width: 50%;
+    padding: 0 25px;
+}
+.about-me .informacoes-sobre-mim .botoes {
+    margin-top: 50px;
+}
+
+.about-me .informacoes-sobre-mim p {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1280px) {
+    .about-me .row {
+        justify-content: center;
+    }
+
+    .about-me .imagem-sobre-mim {
+        max-width: 100%;
+        padding: 0 var(--mobile-padding);
+        margin-bottom: 50px;
+    }
+
+    .about-me .informacoes-sobre-mim {
+        padding: 0 var(--mobile-padding);
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .about-me .informacoes-sobre-mim {
+        max-width: 100%;
+    }
+}
