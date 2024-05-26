@@ -17,6 +17,10 @@
     -webkit-transition: all 0.3s ease;
 }
 
+.habilidades .container-habilidades .habilidade:hover {
+    color: var(--cor-primaria)
+}
+
 .habilidades .container-habilidades .habilidade h3 {
     color: var(--cor-primaria);
     font-size: var(--font-extra-grande);
