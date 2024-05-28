@@ -40,7 +40,8 @@
 }
 
 .home .text-home h2 {
-    font-family: var(--font-grande);
+    font-family: var(--font-secundaria);
+    font-size: var(--font-grande);
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
